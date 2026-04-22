@@ -35,7 +35,7 @@ def predict_house_price(
     return float(model.predict(new_row)[0])
 
 
-# UI
+# User Interface
 st.title("🏠 House Price Predictor")
 longitude = st.number_input("Longitude", min_value=-125.0, max_value=-113.0)
 latitude = st.number_input("Latitude")
